@@ -1,0 +1,183 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-first: #474eaf;
+    --bg-second: #F6F7FB;
+    --bg-jumbotron: #F6F7FB;
+    --secondary: #737373;
+    --btn-hovered: #474eaf;
+    --title: #343A49;
+    --white: #FFFFFF;
+}
+
+/* Navbar */
+.navbar-nav {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+
+.logo {
+    background-color: var(--bg-first);
+    color: var(--white);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.bg-first {
+    background-color: var(--bg-first);
+}
+
+.bg-second {
+    background-color: var(--bg-second);
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+.hubungi {
+    border-radius: 15px;
+}
+
+.hubungi:hover, .hubungi:active, .hubungi:visited {
+    background-color: var(--btn-hovered) !important;
+}
+
+/* Profil */
+.jumbotron {
+    padding: 2rem 1rem;
+    background-color: var(--bg-jumbotron);
+    border-radius: .3rem;
+    padding-bottom: 217px;
+}
+
+.description {
+    font-size: 28px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.profile-picture {
+    width: 398px;
+    height: 398px;
+    margin-top: 200px;
+    background-color: #474eaf;
+
+}
+
+.btn-primary {
+    background-color: var(--bg-first) !important;
+    border-radius: 20px !important;
+    width: 200px !important;
+    height: 70px !important;
+    font-weight: 500 !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: var(--bg-hovered) !important;
+}
+
+.title-1 {
+    font-size: 60px;
+    color: var(--title)
+}
+
+.hr-1, .hr-2, .hr-3 {
+    background: var(--bg-first);
+    width: 142px;
+    margin-bottom: 30px;
+}
+
+.hr-1 {
+    margin-top: 200px;
+}
+
+.hr-2 {
+    margin-top: 70px;
+}
+
+/* Quote */
+#quote-container {
+    background-color: var(--bg-first);
+}
+
+#quote {
+    font-size: 30px;
+    max-width: 1300px;
+}
+
+/* Skill */
+.title-2 {
+    font-size: 40px;
+    color: var(--title);
+    font-weight: 700;
+}
+
+#skill-main-container {
+    max-width: 1300px;
+}
+
+#skill-picture {
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.skill-item-picture {
+    width: 53px;
+}
+
+.skill-title {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 !important;
+}
+
+.card {
+    width: 300px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pengalaman img {
+    height: 230px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.card-body {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+/* Footer */
+footer {
+    background: #464647;
+    color: white;
+    font-size: 1.25em;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+a img {
+    width: 60px;
+    padding-left: 20px;
+}
